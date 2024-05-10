@@ -1,0 +1,267 @@
+header {
+	background-color: #f7ddcd;
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px 10px 10px 10px;
+	align-items: center;
+}
+
+body {
+	background-image: url(/imagenes/body/fondopagina.jpg);
+    background-size: contain;
+	background-size: cover;
+}
+
+#Marca {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	
+}
+
+#Logo {
+	width: 100px;
+	height: 80px;
+}
+
+h1 {
+	font-family: "Tilt neón";
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.28;
+	text-align: left;
+}
+
+.texto-presentacion{
+	color: black;
+	font-family: "Tilt neón";
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.3;
+	text-align: justify;
+}
+
+.imagenes-presentacion-1{ /* VER COMO ALINEAR DEL LADO DERECHO DEL TEXTO DE PRESENTACION*/
+	width: 25%;
+	border-radius: 30px;
+}
+
+.imagenes-presentacion-2 { /* VER COMO ALINEAR DEL LADO DERECHO DEL TEXTO DE PRESENTACION*/
+	width: 25%;
+	border-radius: 30px;
+}
+
+h2,h3 {
+	font-family: "Tilt neón";
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 1.5;
+	text-align: center;
+    text-decoration: underline;
+}
+
+.imagenes {
+	width: 40vh;
+	height: 250px;
+	border-radius: 15px;
+	object-fit: cover;
+}
+
+.texto-descriptivo {
+    font-family: "Tilt neón";
+	font-size: 15px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+a {
+	font-family: "Tilt neón";
+	text-decoration: none;
+	list-style: none;
+	color:black;
+}
+
+.lista-nav, .lista-footer {
+	display: flex;
+	list-style: none;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.lista-redes-sociales {
+	width: 100%;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-start;
+}
+
+.contenedor-adoptar-1, .contenedor-adoptar-2, .contenedor-voluntariado-1, .contenedor-voluntariado-2 {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.box, .box-voluntariado {
+	background-color: #f7ddcd;
+	border: 1px solid #ffffff;
+    padding: 10px; 
+    max-width: 300px; 
+    margin: 0 auto; 
+    text-align: center; 
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.texto-voluntariado {
+	width: 50%;
+	height: 155px;
+	color: black;
+	font-family: "Tilt neón";
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.3;
+	text-align: center;
+}
+
+.box-redes-sociales {
+	display: flex;
+}
+
+footer {
+	background-color: #f7ddcd;
+	border: 1px solid #ffffff;
+    padding: 10px;
+	font-family: "Tilt neón";
+	margin: 0 auto; 
+    text-align: center; 
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.p-footer {
+	width: 372px;
+	height: 67px;
+	color: #000000;
+	font-family: "Tilt neón";
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.6;
+	text-align: center;
+}
+.texto-sobre-nosotros, .texto-adopciones-que-inspiran, .texto-adoptar, .texto-donaciones, .p-contacto {
+	color: black;
+	font-family: "Tilt neón";
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.3;
+	text-align: center;
+}
+
+.contactanos, .contactanos-inicio {
+    width: 300px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.contactanos-inicio input[type="text"],
+.contactanos-inicio input[type="email"],
+.contactanos-inicio input[type="submit"] {
+    width: 100%;
+    margin-bottom: 15px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+	font-family: "Tilt neón";
+    text-align: center; 
+}
+
+.contactanos input[type="text"],
+.contactanos input[type="email"],
+.contactanos input[type="number"], 
+.contactanos input[type="submit"] {
+    width: 100%;
+    margin-bottom: 15px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+	font-family: "Tilt neón";
+    text-align: center; 
+}
+
+.contactanos-inicio input[type="submit"] {
+    background-color: #fcc3bc; 
+    color: black; 
+    cursor: pointer; 
+	font-family: "Tilt neón";
+}
+
+.contactanos-inicio input[type="submit"]:hover {
+    background-color: #fcbcac;
+}
+
+.contactanos-inicio input[type="submit"]:active {
+    background-color: #fcb4ac; 
+}
+
+.contactanos input[type="submit"] {
+    background-color: #fcc3bc; 
+    color: black; 
+    cursor: pointer; 
+	font-family: "Tilt neón";
+}
+
+.contactanos input[type="submit"]:hover {
+    background-color: #fcbcac;
+}
+
+.contactanos input[type="submit"]:active {
+    background-color: #fcb4ac; 
+}
+
+div button {
+    background-color: #fcc3bc; 
+    color: black; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-family: "Tilt neón";
+    text-decoration: none;
+    display: inline-block; 
+	border: 1px solid #ffffff; 
+}
+
+div button:hover {
+    background-color: #fcbcac;
+}
+
+div button:active {
+    background-color: #fcb4ac; 
+}
+
+.opciones-donacion {
+    display: flex; /* Mostrar los elementos en línea */
+    justify-content: space-between; /* Distribuir el espacio entre los elementos */
+}
+
+.donar-dinero,
+.donar-objetos {
+    width: 45%; /* Ancho de cada opción */
+    padding: 20px; /* Espacio interno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.donar-dinero {
+    background-color: #f7ddcd; /* Color de fondo de la caja de donar dinero */
+}
+
+.donar-objetos {
+    background-color: #f7ddcd; /* Color de fondo de la caja de donar objetos */
+}
