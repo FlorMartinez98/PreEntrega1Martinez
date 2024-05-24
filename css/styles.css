@@ -8,7 +8,7 @@ header {
 }
 
 body {
-	background-image: url(/imagenes/body/fondopagina.jpg);
+	background-image: url(../imagenes/body/fondopagina.jpg);
     background-size: contain;
 	background-size: cover;
 }
