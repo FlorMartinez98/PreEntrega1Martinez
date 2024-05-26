@@ -48,6 +48,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	list-style: none;
+	align-items: start;
 }
 
 .lista-nav a, .lista-footer a{
@@ -107,6 +108,10 @@ body p {
 	align-items: center;
 	justify-content: center;
 	margin: 0 10% 2% 10%;
+}
+
+.texto-sobre-nosotros h2 {
+	margin-top: 5%;
 }
 
 h2 {
@@ -183,6 +188,12 @@ h2 {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.contenedor-listas-footer {
+	display: flex;
+	justify-content:space-evenly;
+	margin-top: 5vh;
+}
+
 .p-footer {
 	width: auto;
 	height: auto;
@@ -192,7 +203,15 @@ h2 {
 	font-size: 12px;
 	line-height: 1.6;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 2%;
 }
+
+#mapa {
+	width: 60vh;
+	height: 30vh;
+} 
 
 .contactanos, .contactanos-inicio {
     width: 40vh; 
@@ -286,6 +305,8 @@ button {
 .opciones-donacion {
     display: flex; 
     justify-content: space-between; 
+	margin-right: 5%;
+	margin-left: 5%;
 }
 
 .donaciones {
@@ -307,14 +328,27 @@ button {
     padding: 20px;
     border: 1px solid #ccc; 
     border-radius: 10px; 
+	background-color: #f7ddcd;
 }
 
-.donar-dinero {
-    background-color: #f7ddcd;
+.donar-dinero div {
+	display: flex;
+	justify-content: center;
 }
 
-.donar-objetos {
-    background-color: #f7ddcd; 
+.donar-dinero div a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.donar-objetos div {
+display: flex;
+justify-content: center;
+}
+
+.donar-objetos div a {
+	text-decoration: none;
+	color: #000000;
 }
 
 /* .imagenes-adopciones-que-inspiran {
@@ -332,4 +366,32 @@ button {
 
 .slide img {
 	height: 50vh;
+}
+
+h5 {
+	font-weight: 700;
+	font-size: 20px;
+	text-shadow: 1px 1px 2px gray;
+}
+
+.iconos {
+	/* display: flex; */
+	align-content: space-around;
+	align-items: center;
+}
+
+.perro-contacto{
+	display: flex;
+	justify-content: center;
+}
+
+.perro-contacto ul li {
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+}
+
+.perro-contacto img {
+	width: 100vh;
+	height: 60vh;
 }
