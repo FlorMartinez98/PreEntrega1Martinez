@@ -74,7 +74,7 @@ a:hover #Logo {
 .lista-footer a {
   display: inline-block;
   text-decoration: none;
-  color: black; /* Ajusta el color según tu preferencia */
+  color: black; 
   transition: transform 0.5s ease-in-out;
 }
 
@@ -136,7 +136,7 @@ h2 {
   max-height: fit-content;
   border-radius: 15px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .texto-descriptivo {
@@ -369,7 +369,7 @@ button {
   height: 50vh;
 }
 
-h5 {
+h3 {
   font-weight: 700;
   font-size: 20px;
   text-shadow: 1px 1px 2px gray;
